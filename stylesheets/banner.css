@@ -29,13 +29,13 @@
 }
 
 #subtitle {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   margin-top: 32px;
-  color: #71717A;
+  color: #71717a;
 }
 
 #rubber {
@@ -60,26 +60,30 @@
 
 #down {
   margin-top: 24px;
-  cursor:pointer;
-  animation: bounce .5s ease-in alternate infinite
+  cursor: pointer;
+  font-size: 40px;
+  animation: bounce 0.5s ease-in alternate infinite;
 }
 
 @keyframes bounce {
   0% {
-    transform: translateY(0)
+    transform: translateY(0);
   }
   100% {
-    transform: translateY(16px)
+    transform: translateY(16px);
   }
 }
 
-@media(max-width: 1100px) {
+@media (max-width: 1100px) {
   #banner-grid {
     grid-template-columns: 1fr;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  #shavings {
+    display: none;
   }
   #rubber {
     display: none;
@@ -95,13 +99,16 @@
   }
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   #title {
     flex-direction: column;
+    padding-left: 0;
   }
   #law {
-    padding: 56px 24px;
-    margin-top: -80px;
+    /* padding: 56px 24px; */
+    /* margin-top: -80px; */
+    width: 147px;
+    height: 79px;
   }
   #subtitle {
     width: 80vw;

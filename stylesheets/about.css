@@ -1,15 +1,15 @@
 .about-grid {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  grid-gap: 120px
+  grid-gap: 120px;
 }
 
 #highlight {
-  background-image: url("../images/about-me/highlight.png");
+  background-image: url("../images/about/highlight.png");
   background-size: cover;
 }
 
-@media(max-width: 900px) {
+@media (max-width: 900px) {
   .about-grid {
     display: flex;
     flex-direction: column-reverse;

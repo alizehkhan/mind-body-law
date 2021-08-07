@@ -1,5 +1,5 @@
 #services-section {
-  width: 60%;
+  width: 65%;
 }
 
 #plant {
@@ -12,7 +12,7 @@
 #pricing-section {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-gap: 80px
+  grid-gap: 80px;
 }
 
 #pricing-description {
@@ -31,11 +31,15 @@
   margin-top: 0;
 }
 
-#pricing-section h3{
-  margin: 32px 0 8px 0;
+#pricing-section .service {
+  text-align: center;
 }
 
-@media(max-width: 900px) {
+#pricing-section i {
+  font-size: 24px;
+}
+
+@media (max-width: 900px) {
   #pricing-section {
     display: block;
   }
@@ -48,4 +52,15 @@
   #services-section {
     width: 100%;
   }
+}
+
+.service {
+  background: #f2f2f2;
+  border-radius: 16px;
+  padding: 16px 28px;
+  margin-top: 24px;
+}
+
+ul {
+  padding-inline-start: 24px;
 }
