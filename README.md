@@ -1,12 +1,5 @@
 # [Mind Body Law](https://www.mindbodylaw.co.uk)
 
-A 3-page website advertising a client's legal mentorship company 'Mind Body Law'. Includes a [Calendly API](https://calendly.stoplight.io/docs/gh/calendly/api-docs) to schedule phone calls, as well as a [Google Sheets API](https://developers.google.com/sheets/api) so the client can easily & instantly update the site's content.
+This was a client project: A minimalist three page website offering affordable legal mentorship for startups and small businesses. Services include company set-up, drafting contracts, and advising on data protection and IP.
 
-## Site Summary
-Affordable legal mentorship for startups and small businesses. Services include company set-up, drafting contracts, and advising on data protection and IP.
-
-
-## Authors
-
-* [Seyhan Van Khan](https://github.com/seyhanvankhan)
-* [Alizeh Khan](https://github.com/alizehkhan)
+Includes a [Calendly API](https://calendly.stoplight.io/docs/gh/calendly/api-docs) to schedule phone calls.
