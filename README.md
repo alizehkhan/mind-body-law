@@ -5,6 +5,7 @@ A client project. A minimalist three page website offering affordable legal ment
 	
 ## Built with
 * [Calendly API](https://calendly.stoplight.io/docs/gh/calendly/api-docs) to schedule consultations.
+* [Tabler icons](https://tabler-icons.io/) for minimalist and consistent iconography
 	
 ## Setup
 To run this project, install `http-server` globally via npm so that it may be run from the command line anywhere.
