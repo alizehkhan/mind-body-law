@@ -1,7 +1,8 @@
-# [Mind Body Law](https://www.mindbodylaw.co.uk)
+# Mind Body Law
 
-## Context
-A client project. A minimalist three page website offering affordable legal mentorship for startups and small businesses. Services include company set-up, drafting contracts, and advising on data protection and IP.
+> A client project. A minimalist three page website offering affordable legal mentorship for startups and small businesses. Services include company set-up, drafting contracts, and advising on data protection and IP.
+> 
+> Live demo [_here_](https://www.mindbodylaw.co.uk).
 	
 ## Built with
 * [Calendly API](https://calendly.stoplight.io/docs/gh/calendly/api-docs) to schedule consultations.
